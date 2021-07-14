@@ -1,0 +1,137 @@
+/* Font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*-----------
+ common styles 
+ -------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* header area style */
+header{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.banner-heading{
+    width: 485px;
+    margin-right: 102px;
+    margin-left: 156px;
+    margin-top: 207px;
+    margin-bottom: 240px;
+}
+.banner-title{
+    color:  #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    
+    }
+
+.button-design{
+    text-decoration: none;
+    color: white;
+    background-color: #2D25A0;
+    padding: 10px 24px;
+    height: 44px;
+    width: 168px;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.fa-arrow-right{
+    padding-left: 8px;
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+}
+/*----------------------
+   players section style 
+  ----------------------*/
+  .container{
+      display: flex;
+      justify-content: center;
+  }
+  .players{
+      display: grid;
+      grid-template-columns: repeat(3 ,1fr);
+      grid-row-gap: 27px;
+      grid-column-gap: 30px;
+  }
+  .placard{
+      width: 330px;
+      height: 474px;
+      margin-right: 0;
+      padding: 15px 0px 33px 0px;
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+  }
+  .player-image{
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+.player-image img{
+    width: 100%;
+    height: 256px;
+    
+}
+.player-info{
+    width: 300px;
+    height: 154px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.player-name{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.player-detail{
+    color: #6C6C6C;
+    margin-top: 0px 0px;
+}
+/*------------
+ footer style 
+ -------------*/
+ footer{
+     width: 484px;
+     height: 213px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 0px auto 63px auto;
+ }
+
+ .logo-area{
+    width: 484px;
+    height: 110px;
+ }
+  
+ .logo{
+    width: 100%;
+    height: 100%;
+ }
+ .icon-area{
+     margin-top: 20px;
+     margin-bottom: 20px;
+     
+ }
+ .icon-style{
+     font-size: 32px;
+     margin-right: 14px;
+    
+     
+ }
+ 
+ .copyright-area p{
+     font-size: 18px;
+     margin: 0;
+ }
