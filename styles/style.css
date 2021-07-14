@@ -117,11 +117,15 @@ header{
     align-items: center;
     margin-top: 60px;
     margin-bottom: 43px;
-    border: 1px solid gray;
     padding: 40px;
+    box-shadow: 0px 0px  50px gray;
 }
 .world-heading{
          padding-right: 40px;
+}
+.ranking-heading h2{
+    font-weight: 700;
+    color: #2D25A0; 
 }
 .ranking-info{
     padding-left: 40px;
@@ -164,7 +168,7 @@ header{
  }
 
  /*----------
-  media query 
+  media query for mobile device 
   -----------*/
   @media only screen and (max-width:688px) {
        
@@ -204,6 +208,9 @@ header{
             
           }
         }
+ /*--------------
+  media query for tab
+  ------------------*/
     @media only screen and (max-width:992px) and (min-width:688px) {
             header{
                 flex-direction: column;
